@@ -3,7 +3,11 @@ Simple shopping cart.
 
 <small> **Note: CSS architecture is a bit sloppy at the moment in order to get up and running.**</small>
 
-Project hosted on Netlify: 
+Project deployment build stored in `gh-pages` branch: <https://github.com/ernestosotelo/Cart/tree/gh-pages>
+
+Project deployed via **Netlify**: <https://applesandoranges.netlify.com/>
+
+If you are not familiar with Netlify, Netlify can deploy your GitHub page, add microservices, and provides APIs that allow for more capabilities using a serverless infrastructure. 
 
 ## Create-React-App
 This project was initialized using create-react-app. For questions regarding the create-react-app ecosystem and boilerplate files visit: <https://github.com/facebook/create-react-app>
