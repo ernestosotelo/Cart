@@ -1,0 +1,54 @@
+.block {
+  grid-column: 2/3;
+  grid-row: 1/3;
+  display: grid;
+  justify-content: center;
+  background: darken(#02ff80, 45%);
+  padding: 5rem;
+  border-radius: 3rem;
+  justify-self: center;
+
+  b {
+    color: lighten(#e6ff02, 35%);
+  }
+
+  h2 {
+    width: 100%;
+    font-size: 4rem;
+    color: lighten(#02ff80, 45%);
+    font-weight: 700;
+    margin: 2rem;
+  }
+  .purchaseButton {
+    align-self: center;
+    background: lighten(#e6ff02, 25%);
+    color: darken(#02ff80, 45%);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    font-size: 3rem;
+    margin: 3rem;
+
+    cursor: pointer;
+  }
+
+  .taxAmounts {
+    font-size: 1.5rem;
+  }
+
+  .purchaseTotal {
+    color: lighten(#02ff80, 45%);
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  p {
+    color: lighten(#02ff80, 45%);
+  }
+
+  .link {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background: lighten(#02ff80, 45%);
+  }
+}

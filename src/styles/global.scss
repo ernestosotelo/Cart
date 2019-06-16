@@ -1,0 +1,92 @@
+@mixin device($breakpoint) {
+  @if $breakpoint == "XSM" {
+    @media (max-width: 25.875em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == "SM" {
+    @media (max-width: 48em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == "MD" {
+    @media (max-width: 64em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == "LG" {
+    @media (max-width: 85.375em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == "XLG" {
+    @media (min-width: 120em) {
+      @content;
+    }
+  }
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+  @include device("XLG") {
+    font-size: 75%;
+  }
+
+  @include device("LG") {
+    font-size: 60%;
+  }
+
+  @include device("MD") {
+    font-size: 50%;
+  }
+
+  @include device("SM") {
+    font-size: 40%;
+  }
+
+  @include device("XSM") {
+    font-size: 35%;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  // font-family: $mainFont;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+span {
+  pointer-events: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}

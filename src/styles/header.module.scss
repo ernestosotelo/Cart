@@ -1,0 +1,38 @@
+.block {
+  background-color: #1d1818;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+
+  h1 {
+    padding: 2rem;
+    color: #d4eb08;
+    display: inline;
+    align-self: center;
+  }
+  a {
+    width: 15rem;
+    justify-self: end;
+    justify-content: center;
+    display: flex;
+    background: #d4eb08;
+    padding: 0.5rem;
+
+    &:hover {
+      background: lighten(#d4eb08, 5%);
+    }
+  }
+
+  img {
+    padding: 0.1rem;
+    width: 3rem;
+  }
+
+  .items {
+    justify-self: center;
+    align-self: center;
+    color: darken(#d4eb08, 30%);
+    font-size: 1.8rem;
+    margin: 0.8rem;
+  }
+}

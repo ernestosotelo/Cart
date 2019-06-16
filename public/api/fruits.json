@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Apple",
+    "price": "0.60",
+    "id": "frapple123",
+    "photo": "https://d1klprjnzdvfjr.cloudfront.net/fruits/apple.png"
+  },
+  {
+    "name": "Orange",
+    "price": "0.25",
+    "id": "frorange123",
+    "photo": "https://d1klprjnzdvfjr.cloudfront.net/fruits/orange.png"
+  }
+]

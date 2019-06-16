@@ -1,0 +1,46 @@
+.block {
+  display: grid;
+  padding: 5rem;
+  align-items: center;
+  justify-items: center;
+
+  .testing {
+    background: darken(#ff0217, 50%);
+    padding: 2rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: lighten(#02ff80, 39%);
+    text-align: center;
+    button {
+      padding: 2rem;
+      background: lighten(#02ff80, 15%);
+      font-size: 2rem;
+    }
+  }
+
+  .items {
+    margin: 0;
+  }
+  .message {
+    text-align: center;
+    color: darken(#ff0217, 10%);
+    font-size: 3rem;
+    width: 100%;
+  }
+  .link {
+    font-size: 3.2rem;
+    width: 50rem;
+
+    cursor: pointer;
+    color: darken(#ff0217, 50%);
+    background: lighten(#02ff80, 39%);
+    padding: 3rem;
+    border: outset 0.2rem darken(#ff0217, 20%);
+
+    &:hover {
+      background: lighten(#02ff80, 29%);
+      transform: scale(1.03);
+      transition: transform 0.3s;
+    }
+  }
+}
