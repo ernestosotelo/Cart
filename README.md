@@ -5,8 +5,6 @@ Simple shopping cart.
 
 Project hosted on Netlify: 
 
-## **Code Breakdown & Usage**
-
 ## Create-React-App
 This project was initialized using create-react-app. For questions regarding the create-react-app ecosystem and boilerplate files visit: <https://github.com/facebook/create-react-app>
 
