@@ -1,2 +1,0 @@
-# Cart
-Simple Cart Exercise 
